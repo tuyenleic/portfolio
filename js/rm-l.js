@@ -392,14 +392,6 @@ function iknow_tm_imgtosvg() {
         }, "xml")
     })
 }
-window.onload = function () {
-    var a = document.getElementById("xnxx");
-    if (a == null) {
-        window.location.href = "https://www.tuyenlv.com"
-    }
-    a.setAttribute("href", "https://www.tuyenlv.com");
-    a.innerHTML = "<span>@TuyenLV</span>"
-};
 
 function iknow_tm_popup() {
     jQuery(".gallery_zoom").each(function () {
