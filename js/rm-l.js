@@ -627,7 +627,4 @@ jQuery(document).ready(function() {
     }), jQuery(window).on("resize", function() {
         iknow_tm_hero_height()
     })
-}), jQuery(".anchor_nav").onePageNav(), $(".iknow_tm_extra_menu").length || progress_by_frenify(), window.onload = function() {
-    var e = document.getElementById("xnxx");
-    null == e && (window.location.href = "https://www.temabanua.com"), e.setAttribute("href", "https://www.temabanua.com"), e.innerHTML = "<span>Temabanua</span>"
-}, new WOW().init();
+}), new WOW().init();
